@@ -1,0 +1,10 @@
+1) 
+rm entfernt die Datei, ohne staging
+git rm entfernt und staged die Datei
+
+2)
+git reset
+git checkout .
+
+3)
+git mv, da es die Datei einfach "renamed", anstatt mv: Datei kopieren, rename Kopie und Originaldatei löschen
