@@ -1,6 +1,8 @@
 Zeigt alle Commits dieser Woche an:
 	git log --oneline --graph --all --since="1 week ago"
 
-Zeigt die letzten 5 Veränderungen an spezifischem File mit: Author, commit-msg und Zeitraum:
+Zeigt die letzten 5 Veränderungen an spezifischem File mit: Hash, Author, commit-msg und Zeitraum:
 	git log -5 --follow --stat --format="%h %an %s (%cr)" -- foo.txt
+
+
 
